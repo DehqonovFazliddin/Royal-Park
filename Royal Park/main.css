@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-btn{
+    position: absolute;
+    background: #1B75BB;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.header a{
+    font-family: Gelasio;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 500;
+    top: 45px;
+    position: absolute;
+}
+.company-name{
+    position: absolute;
+    left: 140px;
+    top: 40px;
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #1e3446;
+}
+.logo{
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 70px;
+    top: -9px;
+}
+.header{
+    margin-left: 0px;
+    height: 660px;
+    background-image: url(images/background.png);
+    background-size:1350px;
+    background-repeat: no-repeat;
+}
+.home{
+    left: 330px;   
+    color: #1B75BB;
+}
+.feature{
+    left: 410px;
+    color: #081F32;
+}
+.galery{
+    left: 490px;
+    color: #081F32;
+}
+.testimonials{
+    left: 570px;
+    color: #081F32;
+}
+.header-btn{
+    left: 1050px;
+    top: 55px;
+}
+.text-srenity{
+    position: absolute;
+    left: 140px;
+    top: 140px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #1B75BB;
+    opacity: 0.8;
+}
+.main-text{
+    position: absolute;
+    left: 140px;
+    top: 170px;
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 120%;
+    color: #081F32;
+}
+.text-home{
+    color: #1b75bb;
+}
+.little-text{
+    position: absolute;
+    left: 140px;
+    top: 330px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+}
+.btn-read{
+    left: 140px;
+    top: 440px;
+}
+.blur-box{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    width: 700px;
+    height: 110px;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(70px);
+    border-radius: 10px;
+    font-family: Roboto;
+    line-height: 160%;
+    font-style: normal;
+    color: #081F32;
+}
+.text-blur-1{
+    position: fixed;
+    left: 50px;
+    top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.blur-date{
+    position: fixed;
+    left: 50px;
+    top: 45px;
+    font-weight: normal;
+    line-height: 160%;
+    opacity: 0.8;
+}
+.box-1{
+    position: absolute;
+    top: 30px;
+    width: 150px;
+    height: 30px;
+    border-right: 2px solid #9DACB8;
+}
+.text-blur-2{
+    position: fixed;
+    left: 200px;
+    top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.blur-date-2{
+    position: fixed;
+    left: 200px;
+    top: 45px;
+    font-weight: normal;
+    line-height: 160%;
+    opacity: 0.8;
+}
+.box-2{
+    position: absolute;
+    top: 30px;
+    width: 310px;
+    height: 30px;
+    border-right: 2px solid #9DACB8;
+}
+.text-blur-3{
+    position: fixed;
+    left: 350px;
+    top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.box-person{
+    position: fixed;
+    left: 350px;
+    top: 45px;
+    font-weight: normal;
+    line-height: 160%;
+    opacity: 0.8;
+}
+.blur-room{
+    position: absolute;
+    left: 525px;
+    top: 28px;
+}
+.second-box{
+    position: relative;
+    top: 150px;
+}
+.img-shadow{
+    position: absolute;
+    left: 270px;
+}
+.img-box{
+    position: absolute;
+    top: 60px;
+    left: 65px;
+}
+.img-png{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
+.img-play-btn{
+    position: absolute;
+    left: 350px;
+    top: 175px;
+}
+.text-second-box h2{
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    font-size: 18px;
+    color: #1b75bb;
+    font-family: Gelasio;
+    font-weight: 100;
+}
+.text-second-box p{
+    position: absolute;
+    left: 850px;
+    top: 130px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Gelasio;
+}
+.text-second-box button{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+}
+.choose-text{
+    position: relative;
+    top: 550px;
+    text-align: center;
+}
+.choose-text p{
+    position: relative;
+    top: 25px;
+    color: #89949d;
+}
+.png-icons{
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-icon{
+    padding-top: 25px;
+    height: 220px;
+    width: 230px;
+    border: 1px solid #ccc;
+}
+.first-icon h2{
+    margin-top: 25px;
+    font-weight: 300;
+}
+.third-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    position: relative;
+    left: 170px;
+    top: 1200px;
+}
+.first-text-box h1{
+    font-weight: 200;
+    margin-top: 115px;
+    margin-bottom: 25px;
+}
+.first-text-box p{
+    margin-bottom: 25px;
+    color: #9DACB8;
+}
+.blur-photo{
+    width: 230px;
+    height: 125px;
+    position: absolute;
+    top: 212px;
+    left: 0px;
+    backdrop-filter: blur(3px);
+}
+.photo-btn-1{
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+.room-name{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-weight: 400;
+}
+.text-blur-photo{
+    position: absolute;
+    top: 25px;
+    left: 165px;
+}
+.fourth-box{
+    position: absolute;
+    top: 2285px;
+    left: 170px;
+    display:flex;
+    justify-content: space-between;
+}
+.second-picture{
+    position: relative;
+    left: 135px;
+}
+.third-picture{
+    margin-right: 25px;
+}
+.fourth-pic-blur{
+    position: relative;
+    left: 0px;
+    top: -130px;
+}
+.fifth-box{
+    position: absolute;
+    top: 2640px;
+}
+.fifth-picture{
+    margin-right: 25px;
+}
+.sixth-box{
+    position: absolute;
+    top: 3100px;
+    display: flex;
+    left: 170px;
+    font-weight: 300;
+    justify-content: space-between;
+}
+.sixth-btn{
+    position: absolute;
+    left: 1010px;
+}
+.sixth-text{
+    font-weight: 400;
+}
+.peoples-icon{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 2140px; 
+}
+.first-people{
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    left: 170px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.second-people{
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    left: 560px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(199, 199, 199, 0.25);
+    border-radius: 10px;
+}
+.third-people{
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    left: 950px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.peoples-icon div{
+    padding-top: 50px;
+}
+.peoples-icon .png{
+    position: relative;
+    right: 70px;
+}
+.second-people p{
+    position: relative;
+    width: 281px;
+    height: 58px;
+    top: 25px;
+    left: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+}
+.second-people h3{
+    position: absolute;
+    width: 124px;
+    height: 30px;
+    top: 250px;
+    left: 105px;
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #081F32;
+    opacity: 0.9;
+}
+.second-people h5{
+    position: absolute;
+    width: 130px;
+    height: 22px;
+    left: 105px;
+    top: 280px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: #081F32;
+    opacity: 0.7;
+}
+.first-people p{
+    position: relative;
+    width: 281px;
+    height: 58px;
+    left: 23px;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.6;
+}
+.first-people h3{
+    position: absolute;
+    width: 87px;
+    height: 30px;
+    top: 250px;
+    left: 115px;
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #081F32;
+    opacity: 0.7;
+}
+.first-people h5{
+    position: absolute;
+    width: 130px;
+    height: 22px;
+    left: 95px;
+    top: 280px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.7;
+}
+.half-footer{
+    position: relative;
+    top: 2500px;
+}
+.subtitle{
+    position: relative;
+    left: 600px;
+    margin-top: 40px;
+    width: 267px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #081F32;
+    opacity: 0.8;
+}
+.title{
+    position: absolute;
+    width: 985px;
+    height: 45px;
+    left: 305px;
+    font-family: Gelasio;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    color: #081F32;
+}
+.half-footer input{
+    position: absolute;
+    width: 569px;
+    height: 54px;
+    font-size: 22px;
+    outline: none;
+    padding-right: 25px;
+    text-decoration: none;
+    left: 450px;
+    top: 120px;
+}
+.half-footer input::placeholder{
+    position: static;
+    width: 199px;
+    height: 24px;
+    top: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #081F32;
+    opacity: 0.5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.footer-btn{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    position: absolute;
+    width: 164px;
+    height: 54px;
+    left: 920px;
+    top: 120px;
+}
+.footer{
+    position: relative;
+    top: 2800px;
+    padding-bottom: 400px;
+}
+.footer-logo{
+    position: relative;
+    margin-left: 130px;
+}
+.info-footer{
+    position: absolute;
+    width: 257px;
+    height: 54px;
+    left: 230px;
+    top: 100px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #081F32;
+    opacity: 0.7;
+}
+.change-footer{
+    top: 190px;
+}
+.social-medias a{
+    text-decoration: none;
+    outline: none;
+    position: relative;
+    margin: 0 12px;
+    top: 230px;
+    left: 220px;
+    bottom: 300px;
+}
+.f-title{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 600px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #081F32;
+}
+.f-second{
+    left: 800px;
+}
+.f-third{
+    left: 1000px;
+}
+.f-title-menu{
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+.f-title-menu a{
+    outline: none;
+    text-decoration: none;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #081F32;
+    opacity: 0.7;
+}
+.f-menu{
+    position: absolute;
+    top: 50px;
+}
+.f-menu-1{
+    position: absolute;
+    top: 100px;
+}
+.f-right{
+    position: absolute;
+    left: 800px;
+}
+.f-end{
+    position: absolute;
+    left: 1000px;
+}
+.f-end input{
+    position: absolute;
+    width: 300px;
+    outline: none;
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.f-end-btn{
+    padding: 20px 35px;
+    position: absolute;
+    left: 200px;
+}
